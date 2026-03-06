@@ -1,5 +1,6 @@
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
 }
 
 a, .btn-link {
@@ -62,4 +63,7 @@ h1:focus {
     width:200px;
     border-radius:50%;
     border:3px solid #0078D4;
+}
+body {
+    background-image: url(images/back.jpg);
 }
