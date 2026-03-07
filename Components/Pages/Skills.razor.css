@@ -1,0 +1,52 @@
+.skills-container{
+    width: 70%;
+    margin: auto;
+}
+.skill{
+    margin: 20px 0;
+}
+.skill-bar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    animation: fillBar 2s ease-out forwards;
+    box-shadow:0 0 10px rgba(255,255,255,0.5);
+    position:relative;
+    overflow: hidden;
+}
+.skill-bar::after{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,0.3);
+    transform: skewX(-25deg);
+    animation: shine 2s infinite;
+}
+@keyframes shine{
+    100%{
+        left: 150%;
+    }
+}
+.html{
+    width: 40%;
+    background:#e34c26;
+}
+.css{
+    width: 60%;
+    background: #264de4;
+}
+.blazor{
+    width: 30%;
+    background: #68217a;
+}
+@keyframes fillBar{
+    from{
+        width: 0;
+    }
+}

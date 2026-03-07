@@ -48,8 +48,6 @@ C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\compressed
 C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\compressed\oe4vlwajxd-{0}-abdmv1u4y3-abdmv1u4y3.gz
 C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\compressed\nm7d4p8mtt-{0}-ax6tuj8tun-ax6tuj8tun.gz
 C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\compressed\9fdkymrxq4-{0}-zr4b1gdhaw-zr4b1gdhaw.gz
-C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\compressed\dq6x3a8ph8-{0}-cj4xco0831-cj4xco0831.gz
-C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\compressed\rbv2ka4glg-{0}-cj4xco0831-cj4xco0831.gz
 C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\staticwebassets.development.json
@@ -61,7 +59,6 @@ C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\Portfolio.
 C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\Portfolio.genruntimeconfig.cache
 C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\ref\Portfolio.dll
 C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\Portfolio.sourcelink.json
-C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\compressed\62k8rbmgzy-{0}-sueu5095b9-sueu5095b9.gz
 C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\compressed\fkmehnfzni-{0}-t1cqhe9u97-t1cqhe9u97.gz
 C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\compressed\rv86f6bpew-{0}-sejl45xvog-sejl45xvog.gz
 C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\compressed\rou302czfn-{0}-xvp3kq03qx-xvp3kq03qx.gz
@@ -84,3 +81,8 @@ C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\compressed
 C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\compressed\ivbfe18yhi-{0}-8vyfqsqgz1-8vyfqsqgz1.gz
 C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\compressed\4pono7b0l9-{0}-u9q1upor1n-u9q1upor1n.gz
 C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\compressed\lwrwrz55tk-{0}-4d85u1mtcx-4d85u1mtcx.gz
+C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\scopedcss\Components\Pages\Skills.razor.rz.scp.css
+C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\compressed\62k8rbmgzy-{0}-4n7m0jb6mj-4n7m0jb6mj.gz
+C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
+C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\compressed\dq6x3a8ph8-{0}-zzfpyjh8qo-zzfpyjh8qo.gz
+C:\Users\Nelrose PC\Documents\MyPortfolio\Portfolio\obj\Debug\net10.0\compressed\rbv2ka4glg-{0}-zzfpyjh8qo-zzfpyjh8qo.gz
