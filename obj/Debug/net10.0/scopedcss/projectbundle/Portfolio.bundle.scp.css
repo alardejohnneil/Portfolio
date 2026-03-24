@@ -383,55 +383,49 @@ p[b-msgvu9ph55]{
     line-height: 1.8;
 }
 /* /Components/Pages/Skills.razor.rz.scp.css */
-.skills-container[b-02k1e6ktf8]{
-    width: 70%;
+h3[b-02k1e6ktf8] {
+    text-align: center;
+}
+p[b-02k1e6ktf8]{
+    text-align: center;
+}
+
+/* Card */
+.skill-card[b-02k1e6ktf8] {
+  max-width: 1000px;
     margin: auto;
-}
-.skill[b-02k1e6ktf8]{
-    margin: 20px 0;
-}
-.skill-bar[b-02k1e6ktf8]{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 60px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
     color: white;
-    font-weight: bold;
-    animation: fillBar-b-02k1e6ktf8 2s ease-out forwards;
-    box-shadow:0 0 10px rgba(255,255,255,0.5);
-    position:relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Progress background */
+.progress[b-02k1e6ktf8] {
+    width: 100%;
+    height: 25px;
+    background-color: #eee;
+    border-radius: 10px;
+    margin-top: 10px;
     overflow: hidden;
 }
-.skill-bar[b-02k1e6ktf8]::after{
-    content:"";
-    position: absolute;
-    top: 0;
-    left: -50%;
-    width: 50%;
+
+/* Progress bar (starts empty) */
+.progress-bar[b-02k1e6ktf8] {
     height: 100%;
-    background: rgba(255,255,255,0.3);
-    transform: skewX(-25deg);
-    animation: shine-b-02k1e6ktf8 2s infinite;
+    width: 0; /* start at 0 */
+    background-color: #0078D7;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 10px;
+    transition: width 0.8s ease;
 }
-@keyframes shine-b-02k1e6ktf8{
-    100%{
-        left: 150%;
-    }
-}
-.html[b-02k1e6ktf8]{
-    width: 40%;
-    background:#e34c26;
-}
-.css[b-02k1e6ktf8]{
-    width: 60%;
-    background: #264de4;
-}
-.blazor[b-02k1e6ktf8]{
-    width: 30%;
-    background: #68217a;
-}
-@keyframes fillBar-b-02k1e6ktf8{
-    from{
-        width: 0;
-    }
+
+/* Animate on hover */
+.skill-card:hover .progress-bar[b-02k1e6ktf8] {
+    width: var(--value);
 }

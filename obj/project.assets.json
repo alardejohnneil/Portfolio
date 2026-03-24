@@ -50,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nelrose PC\\Documents\\MyPortfolio\\Portfolio\\Portfolio.csproj",
+      "projectUniqueName": "C:\\Users\\Nelrose PC\\Documents\\BSIT\\ASP\\Portfolio\\Portfolio.csproj",
       "projectName": "Portfolio",
-      "projectPath": "C:\\Users\\Nelrose PC\\Documents\\MyPortfolio\\Portfolio\\Portfolio.csproj",
+      "projectPath": "C:\\Users\\Nelrose PC\\Documents\\BSIT\\ASP\\Portfolio\\Portfolio.csproj",
       "packagesPath": "C:\\Users\\Nelrose PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nelrose PC\\Documents\\MyPortfolio\\Portfolio\\obj\\",
+      "outputPath": "C:\\Users\\Nelrose PC\\Documents\\BSIT\\ASP\\Portfolio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nelrose PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
