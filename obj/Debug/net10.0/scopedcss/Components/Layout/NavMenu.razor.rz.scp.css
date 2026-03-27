@@ -22,7 +22,7 @@
 
 .navbar-brand[b-fw0lmtliz2] {
     font-size: 1.1rem;
-    background-color: linear-gradient(180deg, rgb(5, 39, 103) 0%, #072074 70%);
+    background-color: linear-gradient(180deg, rgba(5, 39, 103, 0.534) 0%, #07207488 70%);
 }
 
 .bi[b-fw0lmtliz2] {

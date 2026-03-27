@@ -1,1 +1,37 @@
-<h3>Projects</h3>
+@page "/projects"
+
+<h1 class="page-title">My Projects</h1>
+
+<div class="projects-grid">
+    <div class="skill-card">
+        <h2>Calculator</h2>
+        <p>A simple calculator built with C Programming Language.</p>
+        <a href="https://drive.google.com/file/d/17j0vqudfltw_8WwBJROm-z1C5wxMrYwO/view?usp=drivesdk" target="_blank" class="btn">View</a>
+    </div>
+
+    <div class="skill-card">
+        <h2>Lost and Found System</h2>
+        <p>A website made using HTML, CSS and JavaScript.</p>
+        <a href="https://github.com/alexanderresula-arch/PC223_CAP.git" target="_blank" class="btn">View</a>
+    </div>
+
+    <div class="skill-card">
+        <h2>Portfolio Website</h2>
+        <p>My personal portfolio built with Blazor and CSS animations.</p>
+        <a href="https://github.com/alardejohnneil/Portfolio.git" target="_blank" class="btn">View</a>
+    </div>
+
+    @* Add Project Card *@
+    <div class="skill-card add-card" @onclick="AddProject">
+        <span class="plus">+</span>
+        <p>Add a new project</p>
+    </div>
+</div>
+
+@code {
+    private void AddProject()
+    {
+        // Add your logic to open a modal or navigate to add project page
+        Console.WriteLine("Add Project clicked!");
+    }
+}

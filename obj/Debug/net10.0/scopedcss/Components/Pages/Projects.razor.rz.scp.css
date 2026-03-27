@@ -1,0 +1,93 @@
+/* Page Title */
+.page-title[b-gtg71hy2sf] {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #fcfeff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Grid layout */
+.projects-grid[b-gtg71hy2sf] {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 40px;
+}
+
+/* Card Styling */
+.skill-card[b-gtg71hy2sf] {
+    background: rgba(0, 0, 50, 0.35);
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 50, 0.5);
+    border: 2px solid rgba(30, 144, 255, 0.5);
+    overflow: hidden;
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background 0.5s ease, border 0.5s ease;
+    cursor: pointer;
+    text-align: center;
+    padding: 30px;
+}
+
+.skill-card h2[b-gtg71hy2sf] {
+    margin-bottom: 15px;
+    color: #1E90FF;
+    font-size: 22px;
+}
+
+.skill-card p[b-gtg71hy2sf] {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #ADD8E6;
+}
+
+/* Button Styling */
+.skill-card .btn[b-gtg71hy2sf] {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #1E90FF, #4682B4);
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.skill-card .btn:hover[b-gtg71hy2sf] {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #4682B4, #1E90FF);
+}
+
+/* Hover Effect on Card */
+.skill-card:hover[b-gtg71hy2sf] {
+    transform: translateY(-10px) rotateX(3deg) rotateY(3deg) scale(1.03);
+    box-shadow: 0 20px 50px rgba(0, 0, 50, 0.7), 0 0 30px rgba(30, 144, 255, 0.2);
+    background: rgba(0, 0, 50, 0.55);
+    border: 2px solid #1E90FF;
+}
+
+/* Add Project Card Specific Styling */
+.skill-card.add-card[b-gtg71hy2sf] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: #1E90FF;
+    background: rgba(0, 0, 50, 0.25);
+    border: 2px dashed #1E90FF;
+    padding: 40px;
+    transition: all 0.4s ease;
+}
+
+.skill-card.add-card:hover[b-gtg71hy2sf] {
+    background: rgba(0, 0, 50, 0.45);
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 20px 50px rgba(0, 0, 50, 0.7), 0 0 40px rgba(30, 144, 255, 0.3);
+}
+
+.skill-card.add-card .plus[b-gtg71hy2sf] {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

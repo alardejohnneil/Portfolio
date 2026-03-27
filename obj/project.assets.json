@@ -45,19 +45,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nelrose PC\\.nuget\\packages\\": {}
+    "C:\\Users\\DUSTIN RAMECH BENSIG\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nelrose PC\\Documents\\BSIT\\ASP\\Portfolio\\Portfolio.csproj",
+      "projectUniqueName": "C:\\Users\\DUSTIN RAMECH BENSIG\\JohnNeil\\Portfolio\\Portfolio.csproj",
       "projectName": "Portfolio",
-      "projectPath": "C:\\Users\\Nelrose PC\\Documents\\BSIT\\ASP\\Portfolio\\Portfolio.csproj",
-      "packagesPath": "C:\\Users\\Nelrose PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nelrose PC\\Documents\\BSIT\\ASP\\Portfolio\\obj\\",
+      "projectPath": "C:\\Users\\DUSTIN RAMECH BENSIG\\JohnNeil\\Portfolio\\Portfolio.csproj",
+      "packagesPath": "C:\\Users\\DUSTIN RAMECH BENSIG\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DUSTIN RAMECH BENSIG\\JohnNeil\\Portfolio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Nelrose PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\DUSTIN RAMECH BENSIG\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
