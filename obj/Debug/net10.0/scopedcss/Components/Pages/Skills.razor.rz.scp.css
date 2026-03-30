@@ -5,6 +5,11 @@ p[b-02k1e6ktf8]{
     text-align: center;
 }
 
+p i[b-02k1e6ktf8] {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
 /* Card */
 .skill-card[b-02k1e6ktf8] {
     max-width: 1000px;
@@ -27,7 +32,13 @@ p[b-02k1e6ktf8]{
     transform: translateY(-10px) rotateX(3deg) rotateY(3deg) scale(1.03);
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7), 0 0 30px rgba(0, 255, 255, 0.2);
     background: rgba(0, 0, 0, 0.6);
-    border: 2px solid #00ffff; /* glowing border effect */
+    animation: glow-b-02k1e6ktf8 2s ease-in-out infinite alternate;
+}
+
+.skill-card:hover i[b-02k1e6ktf8] {
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+    animation: iconGlow-b-02k1e6ktf8 1s ease-in-out infinite alternate;
 }
 
 /* Progress background */
@@ -55,4 +66,22 @@ p[b-02k1e6ktf8]{
 /* Animate on hover */
 .skill-card:hover .progress-bar[b-02k1e6ktf8] {
     width: var(--value);
+}
+
+@keyframes glow-b-02k1e6ktf8 {
+    from {
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7), 0 0 30px rgba(0, 255, 255, 0.2);
+    }
+    to {
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7), 0 0 50px rgba(0, 255, 255, 0.5);
+    }
+}
+
+@keyframes iconGlow-b-02k1e6ktf8 {
+    from {
+        text-shadow: 0 0 10px #00ffff;
+    }
+    to {
+        text-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff;
+    }
 }

@@ -9,9 +9,6 @@ main[b-6s3h03cu1w] {
     flex: 1;
 }
 
-.sidebar[b-6s3h03cu1w] {
-    background-image: linear-gradient(180deg, rgb(3, 23, 78) 0%, #1527c5 70%);
-}
 
 .top-row[b-6s3h03cu1w] {
     background-color:linear-gradient(180deg, rgb(239, 241, 245) 0%, #f6f7f7 70%);
@@ -106,22 +103,35 @@ main[b-6s3h03cu1w] {
     position: absolute;
     top: 0.5rem;
     right: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") no-repeat center/1.75rem rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(0, 255, 255, 0.5);
+    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") no-repeat center/1.75rem rgba(0, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    transition: all 0.3s ease;
 }
 
 .navbar-toggler:checked[b-fw0lmtliz2] {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 255, 255, 0.3);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
 }
 
 .top-row[b-fw0lmtliz2] {
     min-height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
 }
 
 .navbar-brand[b-fw0lmtliz2] {
     font-size: 1.1rem;
-    background-color: linear-gradient(180deg, rgba(5, 39, 103, 0.534) 0%, #07207488 70%);
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    font-family: 'Courier New', monospace;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand i[b-fw0lmtliz2] {
+    margin-right: 8px;
+}
+
+.navbar-brand:hover[b-fw0lmtliz2] {
+    text-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff, 0 0 45px #00ffff;
 }
 
 .bi[b-fw0lmtliz2] {
@@ -169,16 +179,31 @@ main[b-6s3h03cu1w] {
         align-items: center;
         line-height: 3rem;
         width: 100%;
+        font-family: 'Courier New', monospace;
+        transition: all 0.3s ease;
+        text-shadow: 0 0 5px rgba(0, 255, 255, 0.3);
+    }
+
+    .nav-item[b-fw0lmtliz2]  .nav-link i {
+        margin-right: 10px;
+        width: 20px;
+        text-align: center;
     }
 
 .nav-item[b-fw0lmtliz2]  a.active {
-    background-color: rgba(255,255,255,0.37);
-    color: white;
+    background: linear-gradient(90deg, rgba(0, 255, 255, 0.2) 0%, rgba(0, 100, 150, 0.2) 100%);
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    border-left: 3px solid #00ffff;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
 }
 
 .nav-item[b-fw0lmtliz2]  .nav-link:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
+    background: rgba(0, 255, 255, 0.1);
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+    transform: translateX(5px);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
 }
 
 .nav-scrollable[b-fw0lmtliz2] {
@@ -391,7 +416,6 @@ p[b-msgvu9ph55]{
     line-height: 1.8;
 }
 /* /Components/Pages/Projects.razor.rz.scp.css */
-/* Page Title */
 .page-title[b-gtg71hy2sf] {
     text-align: center;
     font-size: 40px;
@@ -400,16 +424,12 @@ p[b-msgvu9ph55]{
     color: #fcfeff;
     font-family: 'Segoe UI', sans-serif;
 }
-
-/* Grid layout */
 .projects-grid[b-gtg71hy2sf] {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
     padding: 40px;
 }
-
-/* Card Styling */
 .skill-card[b-gtg71hy2sf] {
     background: rgba(0, 0, 50, 0.35);
     backdrop-filter: blur(12px);
@@ -422,20 +442,16 @@ p[b-msgvu9ph55]{
     text-align: center;
     padding: 30px;
 }
-
 .skill-card h2[b-gtg71hy2sf] {
     margin-bottom: 15px;
     color: #1E90FF;
     font-size: 22px;
 }
-
 .skill-card p[b-gtg71hy2sf] {
     font-size: 16px;
     margin-bottom: 20px;
     color: #ADD8E6;
 }
-
-/* Button Styling */
 .skill-card .btn[b-gtg71hy2sf] {
     text-decoration: none;
     padding: 10px 20px;
@@ -445,44 +461,15 @@ p[b-msgvu9ph55]{
     border-radius: 8px;
     transition: transform 0.3s ease, background 0.3s ease;
 }
-
 .skill-card .btn:hover[b-gtg71hy2sf] {
     transform: scale(1.05);
     background: linear-gradient(45deg, #4682B4, #1E90FF);
 }
-
-/* Hover Effect on Card */
 .skill-card:hover[b-gtg71hy2sf] {
     transform: translateY(-10px) rotateX(3deg) rotateY(3deg) scale(1.03);
     box-shadow: 0 20px 50px rgba(0, 0, 50, 0.7), 0 0 30px rgba(30, 144, 255, 0.2);
     background: rgba(0, 0, 50, 0.55);
     border: 2px solid #1E90FF;
-}
-
-/* Add Project Card Specific Styling */
-.skill-card.add-card[b-gtg71hy2sf] {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 48px;
-    color: #1E90FF;
-    background: rgba(0, 0, 50, 0.25);
-    border: 2px dashed #1E90FF;
-    padding: 40px;
-    transition: all 0.4s ease;
-}
-
-.skill-card.add-card:hover[b-gtg71hy2sf] {
-    background: rgba(0, 0, 50, 0.45);
-    transform: translateY(-10px) scale(1.05);
-    box-shadow: 0 20px 50px rgba(0, 0, 50, 0.7), 0 0 40px rgba(30, 144, 255, 0.3);
-}
-
-.skill-card.add-card .plus[b-gtg71hy2sf] {
-    font-size: 64px;
-    font-weight: bold;
-    margin-bottom: 10px;
 }
 /* /Components/Pages/Skills.razor.rz.scp.css */
 h3[b-02k1e6ktf8] {
@@ -490,6 +477,11 @@ h3[b-02k1e6ktf8] {
 }
 p[b-02k1e6ktf8]{
     text-align: center;
+}
+
+p i[b-02k1e6ktf8] {
+    margin-right: 10px;
+    font-size: 1.2em;
 }
 
 /* Card */
@@ -514,7 +506,13 @@ p[b-02k1e6ktf8]{
     transform: translateY(-10px) rotateX(3deg) rotateY(3deg) scale(1.03);
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7), 0 0 30px rgba(0, 255, 255, 0.2);
     background: rgba(0, 0, 0, 0.6);
-    border: 2px solid #00ffff; /* glowing border effect */
+    animation: glow-b-02k1e6ktf8 2s ease-in-out infinite alternate;
+}
+
+.skill-card:hover i[b-02k1e6ktf8] {
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+    animation: iconGlow-b-02k1e6ktf8 1s ease-in-out infinite alternate;
 }
 
 /* Progress background */
@@ -542,4 +540,22 @@ p[b-02k1e6ktf8]{
 /* Animate on hover */
 .skill-card:hover .progress-bar[b-02k1e6ktf8] {
     width: var(--value);
+}
+
+@keyframes glow-b-02k1e6ktf8 {
+    from {
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7), 0 0 30px rgba(0, 255, 255, 0.2);
+    }
+    to {
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7), 0 0 50px rgba(0, 255, 255, 0.5);
+    }
+}
+
+@keyframes iconGlow-b-02k1e6ktf8 {
+    from {
+        text-shadow: 0 0 10px #00ffff;
+    }
+    to {
+        text-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff;
+    }
 }
