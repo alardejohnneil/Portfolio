@@ -350,5 +350,5 @@ C:\Users\alard\Documents\BSIT\Portfolio\obj\Debug\net10.0\Portfolio.pdb
 C:\Users\alard\Documents\BSIT\Portfolio\obj\Debug\net10.0\Portfolio.genruntimeconfig.cache
 C:\Users\alard\Documents\BSIT\Portfolio\obj\Debug\net10.0\ref\Portfolio.dll
 C:\Users\alard\Documents\BSIT\Portfolio\obj\Debug\net10.0\compressed\62k8rbmgzy-{0}-j3qrvqj2mu-j3qrvqj2mu.gz
-C:\Users\alard\Documents\BSIT\Portfolio\obj\Debug\net10.0\compressed\dq6x3a8ph8-{0}-4bk3btvgkp-4bk3btvgkp.gz
-C:\Users\alard\Documents\BSIT\Portfolio\obj\Debug\net10.0\compressed\rbv2ka4glg-{0}-4bk3btvgkp-4bk3btvgkp.gz
+C:\Users\alard\Documents\BSIT\Portfolio\obj\Debug\net10.0\compressed\dq6x3a8ph8-{0}-cqhr22weyf-cqhr22weyf.gz
+C:\Users\alard\Documents\BSIT\Portfolio\obj\Debug\net10.0\compressed\rbv2ka4glg-{0}-cqhr22weyf-cqhr22weyf.gz
